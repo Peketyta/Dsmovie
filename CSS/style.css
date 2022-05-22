@@ -5,6 +5,8 @@
     --textgray: #4A4A4A;
     --color-primary: #0000FF;
     --white: #FFFFFF;
+    --text-light-gray: #AAA;
+    --star-yellow: #FFBB3A;
 }
 
 *{
@@ -68,6 +70,7 @@ a, a:hover {
 
 .dsmovie-card {
     width: 360px;
+    width: 100%;
 }
 
 .dsmovie-card img {
