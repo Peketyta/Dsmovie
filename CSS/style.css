@@ -5,7 +5,7 @@
     --textgray: #4A4A4A;
     --color-primary: #0000FF;
     --white: #FFFFFF;
-    --text-light-gray: #AAA;
+    --text-light-gray: #AAAAAA;
     --star-yellow: #FFBB3A;
 }
 
@@ -40,8 +40,6 @@ nav, a {
 }
 
 header {
-    background-color: #0000FF;
-    color: #FFFFFF;
     background-color: var(--color-primary);
     color: var(--white);
     height: 60px;
@@ -69,7 +67,6 @@ a, a:hover {
 }
 
 .dsmovie-card {
-    width: 360px;
     width: 100%;
 }
 
@@ -105,3 +102,8 @@ a, a:hover {
     justify-content: center;
     border-radius: 4px;
 }
+
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+} 
